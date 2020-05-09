@@ -64,7 +64,7 @@ app.use(express.static("public"));
 //=============================
 //          Routers
 //=============================
-app.get("/", (req, res) => {
+app.get("/todo", (req, res) => {
     res.render("index")
 });
 
